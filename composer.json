@@ -1,0 +1,6 @@
+{
+
+    "require": {
+        "statamic/cli": "^2.6"
+    }
+}
