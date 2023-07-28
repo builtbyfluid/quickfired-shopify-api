@@ -114,6 +114,8 @@ return [
 
         'generate_presets_on_upload' => true,
 
+        'mimes' => ['image/jpeg', 'image/png', 'image/gif', 'image/webp'],
+
     ],
 
     /*

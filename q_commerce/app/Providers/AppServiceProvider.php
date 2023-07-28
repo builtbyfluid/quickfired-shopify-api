@@ -12,7 +12,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->singleton(ShopifyService::class, function ($app) {
+            return new ShopifyService();
+        });
     }
 
     /**

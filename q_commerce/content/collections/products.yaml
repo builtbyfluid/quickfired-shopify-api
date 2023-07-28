@@ -1,0 +1,15 @@
+title: Products
+route: /products/{slug}
+fieldset: product_entry
+template: products/{slug}
+layout: layout
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
